@@ -1,6 +1,7 @@
 import sys
 
 def main():
+	"""this program print the transposition of a string in morse"""
 	try:
 		assert len(sys.argv) == 2
 		s = str(sys.argv[1])

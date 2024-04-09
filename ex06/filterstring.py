@@ -17,6 +17,9 @@ def main():
 	print(ft_filter.__doc__)
 	print()
 	print(ft_filter(lambda x: len(x) > lim, s.split()))
+	# print(ft_filter(None, s.split()))
+	# print(list(filter("lalala", s.split())))
+	print(list(ft_filter(None, s.split())))
 
 if __name__ == "__main__":
 	main()
